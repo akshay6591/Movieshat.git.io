@@ -494,12 +494,8 @@ body:hover::-webkit-scrollbar-thumb {
   z-index: 99999999999;
 }
 
-@media screen and (max-width: 643px){
-  .navbar-container {
-    display: flex;
-    align-items: center;
-    padding: 0 50px;
-    height: 100%;
-    font-family: "Sen", sans-serif;
-}
+@media only screen and (max-width: 940px){
+  .menu-container {
+    display: none;
+  }
 }
